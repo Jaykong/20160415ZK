@@ -10,7 +10,9 @@
 #import "Rectangle.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        
         Rectangle *rectangle=[[Rectangle alloc] init];
+        
         [rectangle setWidth:3];
         [rectangle setHeight:5];
         
