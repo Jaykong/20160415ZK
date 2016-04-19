@@ -10,8 +10,11 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+        int n,sum=1;
+        for(n=1;n<=10;n+=1)
+        {
+            sum*=n;
+            NSLog(@"%i的阶乘为：%i",n,sum);
+        }
     return 0;
 }
