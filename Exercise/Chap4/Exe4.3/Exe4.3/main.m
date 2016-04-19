@@ -10,8 +10,12 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        char c,d;
+        
+        c='d';
+        d=c;
+        NSLog(@"d=%c",d);
     }
     return 0;
 }
+//d=d

@@ -10,8 +10,11 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        float F,C;
+        F=27;
+        C=(F-32)/1.8;
+        NSLog(@"华氏温度27°=摄氏温度%.1f度\n",C);
     }
     return 0;
 }
+//华氏温度27°=摄氏温度-2.8度
