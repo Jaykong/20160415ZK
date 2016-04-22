@@ -9,5 +9,19 @@
 #import "Vehicle.h"
 
 @implementation Vehicle
-
+{
+    int getGas,prep,service;
+}
+-(int)getGas
+{
+    return getGas;
+}
+-(int)prep;
+{
+    return prep;
+}
+-(int)service;
+{
+    return service;
+}
 @end

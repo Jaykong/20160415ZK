@@ -10,4 +10,8 @@
 
 @interface Vehicle : NSObject
 
+-(int)getGas;
+-(int)prep;
+-(int)service;
+
 @end

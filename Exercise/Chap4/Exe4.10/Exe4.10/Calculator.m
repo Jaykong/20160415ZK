@@ -11,6 +11,7 @@
 @implementation Calculator
 {
     double accumulator;
+    double memory;
 }
 
 -(void) setAccumulator:(double)value;
@@ -28,34 +29,46 @@
 {
     return accumulator;
 }
-//加法
+
 -(void) add:(double)value;
 {
     accumulator+=value;
 }
 
-//减法
 -(void) subtract:(double) value;
 {
     accumulator-=value;
 }
 
-//乘法
 -(void) multiply:(double) value;
 {
     accumulator*=value;
 }
 
-//除法
 -(void) divide:(double) value;
 {
     accumulator/=value;
 }
--(double)memoryClear;
+
+-(double) memoryClear;
 {
-    }
--(double)memoryStore;
+    return 0;
+}
+-(double) memoryStore;
 {
-    }
+    return memory=accumulator;
+}
+-(double) memoryRecall;
+{
+    return memory;
+}
+-(double) memoryAdd:(double) value;
+{
+    return memory += value;
+}
+-(double) memorySubtract:(double) value;
+{
+      return memory -= value;
+}
 
 @end

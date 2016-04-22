@@ -32,24 +32,25 @@
 -(void) add:(double)value;
 {
     accumulator+=value;
+    printf("%lf\n",accumulator);
 }
-
 //减法
 -(void) subtract:(double) value;
 {
     accumulator-=value;
+    printf("%lf\n",accumulator);
 }
-
 //乘法
 -(void) multiply:(double) value;
 {
     accumulator*=value;
+    printf("%lf\n",accumulator);
 }
-
 //除法
 -(void) divide:(double) value;
 {
     accumulator/=value;
+    printf("%lf\n",accumulator);
 }
 
 @end
