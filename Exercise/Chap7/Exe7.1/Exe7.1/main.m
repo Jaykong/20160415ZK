@@ -14,12 +14,10 @@ int main(int argc, const char * argv[]) {
         Fraction *aFraction = [[Fraction alloc] init];
         Fraction *bFraction = [[Fraction alloc] init];
         Fraction *resultFraction;
-        [aFraction setTo:1 over:8];
-        [bFraction setTo:3 over:8];
+        [aFraction setTo:1 over:6];
+        [bFraction setTo:3 over:6];
         [aFraction print];
-        printf("+");
         [bFraction print];
-        printf("=");
         
         resultFraction = [aFraction add: bFraction];
         [resultFraction print];

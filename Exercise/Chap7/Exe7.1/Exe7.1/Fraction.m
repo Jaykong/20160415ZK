@@ -13,7 +13,7 @@
 
 -(void) print
 {
-    printf("%i/%i", numerator, denominator);
+    printf("%i/%i\n", numerator, denominator);
 }
 
 -(double) convertToNum
@@ -29,6 +29,7 @@
     denominator = d;
 }
 
+//约简方法
 -(void) reduce{
     int u = numerator;
     int v = denominator;
